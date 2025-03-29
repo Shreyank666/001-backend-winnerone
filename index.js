@@ -51,7 +51,7 @@ app.use(
     credentials: true, // Allow credentials like cookies to be sent
   })
 );
-app.use(cors());
+// app.use(cors());
 
 const MONGO_URI = process.env.mongodb_url;   
 // MongoDB connection
